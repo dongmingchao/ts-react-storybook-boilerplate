@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/typescript",
+    "@babel/react"
+  ],
+  "plugins": [
+    "macros",
+    "@babel/transform-typescript",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-json-strings",
+    "@babel/syntax-dynamic-import",
+    "@babel/syntax-import-meta",
+    "@babel/transform-react-jsx",
+    "react-hot-loader/babel"
+  ]
+}
