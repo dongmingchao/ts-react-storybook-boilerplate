@@ -1,2 +1,2 @@
-export * from './components/Task/Task';
-export * from './components/TaskList/TaskList';
+export { default as TaskItem } from './components/Task/Task';
+export { default as TaskList } from './components/TaskList/TaskList';
