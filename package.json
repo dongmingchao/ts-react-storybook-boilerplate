@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest --config config/jest.config.js",
     "tell": "start-storybook -p 9001 -c .storybook",
-    "pub-doc": "build-storybook -c .storybook -o .out"
+    "build-storybook": "build-storybook -c .storybook -o .out",
+    "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic"
   },
-  "author": "",
+  "author": "dong.dmc@alibaba-inc.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
