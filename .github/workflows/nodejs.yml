@@ -36,7 +36,9 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@dongmingchao'
-      - run: npm ci
-      - run: npm publish
+      - run: |
+          npm ci
+          npm run build
+      - run: npm publish build/lib
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -23,6 +23,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["./**/*"],
-  "exclude": ["node_modules", "build", "scripts"]
+  "include": ["components/**/*"],
+  "exclude": ["node_modules", "build", "scripts", "components/__*__/*"]
 }

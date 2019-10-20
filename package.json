@@ -7,7 +7,8 @@
     "test": "jest --config config/jest.config.js",
     "tell": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic"
+    "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic",
+    "build": "tsc"
   },
   "author": "dong.dmc@alibaba-inc.com",
   "license": "ISC",
@@ -27,7 +28,6 @@
     "@storybook/addon-storyshots": "^5.2.4",
     "@storybook/react": "^5.2.4",
     "@types/node": "^12.11.1",
-    "@types/storybook__addon-storyshots": "^5.1.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "babel-jest": "^24.9.0",
@@ -51,7 +51,7 @@
     "style-loader": "^1.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "3.5.3"
   },
   "dependencies": {
     "react": "^16.9.0",
