@@ -4,7 +4,7 @@ import LiveEdit, { setOptions } from 'storybook-addon-react-live-edit';
 import { withKnobs } from '@storybook/addon-knobs';
 import requireContext from 'require-context.macro';
 
-const req = requireContext('../components', true, /\.stories.tsx$/);
+const req = requireContext('../src', true, /\.stories.tsx$/);
 
 function loadStories() {
   // require('./stories/index.jsx'); // 指定 story 的位置

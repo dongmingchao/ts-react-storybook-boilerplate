@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "build/lib",
+    "outDir": "build",
     "module": "commonjs",
     "target": "es5",
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
@@ -9,8 +9,8 @@
     "jsx": "react",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "rootDirs": ["components", "stories"],
-    "baseUrl": "components",
+    "rootDirs": ["src", "stories"],
+    "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -23,12 +23,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["components/**/*"],
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules",
     "build",
     "scripts",
-    "components/__*__/*",
-    "components/**/*.stories.tsx"
+    "src/__*__/*",
+    "src/**/*.stories.tsx"
   ]
 }

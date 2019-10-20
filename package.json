@@ -1,6 +1,6 @@
 {
   "name": "@dongmingchao/antd-ext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,7 @@
     "less-loader": "^5.0.0",
     "react-docgen-typescript-loader": "^3.3.0",
     "react-test-renderer": "^16.10.2",
+    "react-hot-loader": "^4.12.15",
     "require-context.macro": "^1.2.2",
     "storybook-addon-react-live-edit": "^2.0.4",
     "storybook-chromatic": "^3.0.3",
@@ -55,7 +56,6 @@
   },
   "dependencies": {
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-hot-loader": "^4.12.15"
+    "react-dom": "^16.9.0"
   }
 }
