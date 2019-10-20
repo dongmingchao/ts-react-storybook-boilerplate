@@ -24,5 +24,11 @@
     "emitDecoratorMetadata": true
   },
   "include": ["components/**/*"],
-  "exclude": ["node_modules", "build", "scripts", "components/__*__/*"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "components/__*__/*",
+    "components/**/*.stories.tsx"
+  ]
 }

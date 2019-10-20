@@ -8,7 +8,7 @@
     "tell": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic",
-    "build": "tsc"
+    "build": "tsc && bash config/scripts/prepublish.sh"
   },
   "author": "dong.dmc@alibaba-inc.com",
   "license": "ISC",
