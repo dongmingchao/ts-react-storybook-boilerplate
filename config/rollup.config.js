@@ -15,6 +15,7 @@ export default {
   plugins: [
     postcss({
       plugins: [],
+      modules: true,
     }),
     typescript(),
     resolve(),
