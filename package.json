@@ -1,6 +1,6 @@
 {
   "name": "@dongmingchao/antd-ext",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "tell": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic",
-    "build": "tsc && bash config/scripts/prepublish.sh"
+    "build": "rollup -c config/rollup.config.js && bash config/scripts/prepublish.sh"
   },
   "author": "dong.dmc@alibaba-inc.com",
   "license": "ISC",
@@ -44,14 +44,20 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "react-docgen-typescript-loader": "^3.3.0",
-    "react-test-renderer": "^16.10.2",
     "react-hot-loader": "^4.12.15",
+    "react-test-renderer": "^16.10.2",
     "require-context.macro": "^1.2.2",
+    "rollup": "^1.25.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.24.3",
     "storybook-addon-react-live-edit": "^2.0.4",
     "storybook-chromatic": "^3.0.3",
     "style-loader": "^1.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
+    "tslib": "^1.10.0",
     "typescript": "3.5.3"
   },
   "dependencies": {
