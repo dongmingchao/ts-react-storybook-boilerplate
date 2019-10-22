@@ -2,9 +2,11 @@
 
 exports[`Storyshots Task archived 1`] = `
 <div
-  className="list-item TASK_ARCHIVED"
+  className="undefined TASK_ARCHIVED undefined"
 >
-  <label>
+  <label
+    className="undefined"
+  >
     <input
       checked={true}
       disabled={true}
@@ -32,9 +34,11 @@ exports[`Storyshots Task archived 1`] = `
 
 exports[`Storyshots Task default 1`] = `
 <div
-  className="list-item TASK_INBOX"
+  className="undefined TASK_INBOX undefined"
 >
-  <label>
+  <label
+    className="undefined"
+  >
     <input
       checked={false}
       disabled={true}
@@ -70,9 +74,11 @@ exports[`Storyshots Task default 1`] = `
 
 exports[`Storyshots Task pinned 1`] = `
 <div
-  className="list-item TASK_PINNED"
+  className="undefined TASK_PINNED undefined"
 >
-  <label>
+  <label
+    className="undefined"
+  >
     <input
       checked={false}
       disabled={true}
@@ -108,9 +114,11 @@ exports[`Storyshots Task pinned 1`] = `
 
 exports[`Storyshots Task with Knobs 1`] = `
 <div
-  className="list-item TASK_INBOX"
+  className="undefined TASK_INBOX undefined"
 >
-  <label>
+  <label
+    className="undefined"
+  >
     <input
       checked={false}
       disabled={true}
@@ -156,9 +164,11 @@ exports[`Storyshots TaskList default 1`] = `
     className="list-items"
   >
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -191,9 +201,11 @@ exports[`Storyshots TaskList default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -226,9 +238,11 @@ exports[`Storyshots TaskList default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -261,9 +275,11 @@ exports[`Storyshots TaskList default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -296,9 +312,11 @@ exports[`Storyshots TaskList default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -331,9 +349,11 @@ exports[`Storyshots TaskList default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -413,9 +433,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
     className="list-items"
   >
     <div
-      className="list-item TASK_PINNED"
+      className="undefined TASK_PINNED undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -448,9 +470,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -483,9 +507,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -518,9 +544,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -553,9 +581,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
@@ -588,9 +618,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="undefined undefined undefined"
     >
-      <label>
+      <label
+        className="undefined"
+      >
         <input
           checked={false}
           disabled={true}
