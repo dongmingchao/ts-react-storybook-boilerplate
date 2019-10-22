@@ -12,6 +12,7 @@ export interface Task {
 
 export interface propTypes {
   task: Task;
+  className?: string;
   onArchiveTask?(id: string): void;
   onPinTask?(id: string): void;
 }
@@ -20,10 +21,11 @@ export default function TaskItem({
   task: { title, state, id },
   onArchiveTask = () => {},
   onPinTask = () => {},
+  className,
 }: propTypes) {
   return (
-    <div className={`list-item ${state}`}>
-      <label>
+    <div className={`${className} ${state} ${css['list-item']}`}>
+      <label className={`${css['checkbox-outer']}`}>
         <input
           className={css['checkbox-value']}
           type="checkbox"

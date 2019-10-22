@@ -1,5 +1,6 @@
 import React from 'react';
 import TaskItem, { Task } from '../Task/Task';
+import css from './TaskList.styl';
 
 interface propTypes {
   loading?: boolean;
@@ -30,7 +31,7 @@ function TaskList({ loading = false, tasks, onPinTask, onArchiveTask }: propType
   return (
     <div className="list-items">
       {tasksInOrder.map((task) => (
-        <TaskItem key={task.id} task={task} {...events} />
+        <TaskItem className={`${css['list-item']}`} key={task.id} task={task} {...events} />
       ))}
     </div>
   );
