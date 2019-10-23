@@ -2,7 +2,7 @@ import typescript from 'rollup-plugin-typescript2';
 // import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import rollup_postcss from 'rollup-plugin-postcss';
-import postcssSplit from './rollup/postcss-split-module';
+import postcssSplit from 'postcss-split-module';
 
 export default {
   input: 'src/index.ts',

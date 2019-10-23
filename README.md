@@ -1,13 +1,21 @@
-# Story Book
+# Simple React + Typescript + Story Book + Rollup Boilerplate
 
-## 参考文档
-
-https://www.jianshu.com/p/9cb75ae50515
-
-## Use
+## Use Package
 
 you need login to https://npm.pkg.github.com first
 
 ```bash
 npm install @dongmingchao/antd-ext --registry=https://npm.pkg.github.com/dongmingchao
 ```
+
+## Feature
+
+- use Github Actions & packages
+- use [eslint-config-ali](https://www.npmjs.com/package/eslint-config-ali)
+- use [storybook](https://storybook.js.org/)
+- add [storybook snapshot test](https://www.npmjs.com/package/@storybook/addon-storyshots)
+- add [chromatic](https://www.npmjs.com/package/storybook-chromatic) for ui test
+- use [postcss](https://postcss.org/) to support [stylus](http://stylus-lang.com/) and [less](http://lesscss.org/), you can add any preprocessor you need
+- support [css module](https://github.com/css-modules/css-modules), and export each in separate build dir, **Even d.ts or json !**
+
+## Welcome issue and pull requests 👍
