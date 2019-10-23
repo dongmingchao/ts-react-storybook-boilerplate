@@ -7,8 +7,8 @@
     "test": "jest --config config/jest.config.js",
     "tell": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "chromatic": "CHROMATIC_APP_CODE=35g8svleh4c chromatic",
-    "build": "NODE_ENV=production rollup -c config/rollup.config.js && bash config/scripts/prepublish.sh"
+    "build": "NODE_ENV=production rollup -c config/rollup.config.js && bash config/scripts/prepublish.sh",
+    "chromatic": "CHROMATIC_APP_CODE=ggwun5ja9fg chromatic"
   },
   "author": "dongmingchao <1657883517@qq.com>",
   "license": "MIT",
@@ -43,7 +43,6 @@
     "jest": "^24.9.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "postcss": "^7.0.18",
     "postcss-split-module": "0.0.2",
     "react-docgen-typescript-loader": "^3.3.0",
     "react-hot-loader": "^4.12.15",
