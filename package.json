@@ -43,7 +43,7 @@
     "jest": "^24.9.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "postcss-split-module": "0.0.2",
+    "postcss-split-module": "0.0.3",
     "react-docgen-typescript-loader": "^3.3.0",
     "react-hot-loader": "^4.12.15",
     "react-test-renderer": "^16.10.2",
